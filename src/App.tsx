@@ -74,13 +74,11 @@ function App() {
           ))}
         </div>
         {/* Instructions for adding more projects can be placed here or in a separate section */}
-        <div className="mt-8 p-4 bg-yellow-100 dark:bg-yellow-900 border border-yellow-300 dark:border-yellow-700 rounded-md text-center text-yellow-800 dark:text-yellow-200">
-          <p><strong>Note:</strong> To add more projects later, edit the `src/App.tsx` file and add new project objects to the `projects` array following the existing structure.</p>
-        </div>
+       
       </main>
 
       <footer className="bg-gray-800 text-white p-4 text-center mt-8">
-        <p>&copy; {new Date().getFullYear()} Ahmed Sabry. Website created by Manus AI.</p>
+        <p>&copy; {new Date().getFullYear()} Ahmed Sabry. Website created by Ahmed</p>
       </footer>
     </div>
   );
